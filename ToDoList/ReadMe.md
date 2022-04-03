@@ -1,0 +1,1 @@
+#### Merhabalar To Do List uygulamasını C# ASP.NET MVC kullanarak yazdım CREATE READ COMPLETE DELETE fonksiyonlarımız var.  Frontend kısmı için boostrap4 ve jquery kullandım (Hazır templateler). Veritabanı olarak Sqlite kullandım. 
