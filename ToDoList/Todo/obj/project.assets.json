@@ -284,11 +284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Todo.csproj",
+      "projectUniqueName": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Todo.csproj",
       "projectName": "Todo",
-      "projectPath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Todo.csproj",
+      "projectPath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Todo.csproj",
       "packagesPath": "/Users/fevzisahinler/.nuget/packages/",
-      "outputPath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/obj/",
+      "outputPath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fevzisahinler/.nuget/NuGet/NuGet.Config"

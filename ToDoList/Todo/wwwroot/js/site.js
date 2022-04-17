@@ -30,3 +30,20 @@ function CompleteButton(i)
     });
 }
 
+function populateForm(i) {
+
+    $.ajax({
+        url: 'Home/PopulateForm',
+        type: 'GET',
+        data: {
+            id: i
+        },
+        dataType: 'json',
+        success: function (response) {
+            $("#Todo_Adı").val(response.Adı);
+            $("#Todo_Id").val(response.id);
+            $("#form-button").val("Görev Güncelle");
+            $("#form-action").attr("action", "/Home/Update");
+        }
+    });
+}

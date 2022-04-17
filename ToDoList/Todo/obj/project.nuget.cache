@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kxv/9jz3Dl1S5v3rBqjaUx0HekXhQ+SR/CuEK/tmE90nSx/7aidqAUXMNO/fCSSgyCThwv/0HqRIfORzTBSi9w==",
+  "dgSpecHash": "80DcQiNcX6KKFSH2Mn+03tay0ShQi854PO18ZDmD/OgA5eCc9/vavWdSXffE2d6S4dTpgYmBKSGxnx59JwPEXA==",
   "success": true,
-  "projectFilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Todo.csproj",
+  "projectFilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Todo.csproj",
   "expectedPackageFiles": [
     "/Users/fevzisahinler/.nuget/packages/microsoft.data.sqlite/6.0.2/microsoft.data.sqlite.6.0.2.nupkg.sha512",
     "/Users/fevzisahinler/.nuget/packages/microsoft.data.sqlite.core/6.0.2/microsoft.data.sqlite.core.6.0.2.nupkg.sha512",

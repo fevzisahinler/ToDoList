@@ -25,9 +25,14 @@
                             <td class="todos-column">@t.Adı</td>
                         }
                         <td class="buttons-column">
-                        <input type="submit" class="btn btn-danger" value="Delete" onClick="deleteTodo(@t.Id)" />
-                        <input type="submit" class="btn btn-primary" value="Complete" onClick="CompleteButton(@t.Id)" />
-                        
+                        <input type="submit" class="btn btn-danger" value="Sil" onClick="deleteTodo(@t.Id)" />
+                        <input type="submit" class="btn btn-primary" value="Tamamla" onClick="CompleteButton(@t.Id)" />
+                        @if(@t.Complete ==1){
+                            <input type="submit" class="btn btn-secondary" value="Güncelle" />
+                        }
+                        else{
+                            <input type="submit" class="btn btn-secondary" value="Güncelle" onClick="populateForm(@t.Id)"/>
+                        }
                         </td>
                     </tr>
                 }

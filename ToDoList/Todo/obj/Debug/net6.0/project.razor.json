@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Todo.csproj",
+  "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Todo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,33 +16298,33 @@
   "RootNamespace": "Todo",
   "Documents": [
     {
-      "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Views/Shared/_Form.cshtml",
-      "TargetPath": "Views\\Shared\\_Form.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Views/Home/Index.cshtml",
+      "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Views/_ViewImports.cshtml",
+      "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/fevzisahinler/Desktop/github/ToDoList/ToDoList/Todo/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "/Users/fevzisahinler/Desktop/ToDoList/Todo/Views/Shared/_Form.cshtml",
+      "TargetPath": "Views\\Shared\\_Form.cshtml",
       "FileKind": "mvc"
     }
   ],

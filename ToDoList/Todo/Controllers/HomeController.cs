@@ -26,6 +26,12 @@ namespace Todo.Controllers
             return View(todoListViewModel);
         }
 
+        [HttpGet]
+        public JsonResult PopulateForm(int id)
+        {
+            var todo = GetById(id);
+            return Json(todo);
+        }
 
         internal TodoViewModel GetAllTodos()
         {
@@ -38,7 +44,6 @@ namespace Todo.Controllers
                 {
                     con.Open();
                     tableCmd.CommandText = "SELECT * FROM todo";
-
                     using (var reader = tableCmd.ExecuteReader())
                     {
                         if (reader.HasRows)
@@ -74,7 +79,6 @@ namespace Todo.Controllers
         internal TodoItem GetById(int id)
         {
             TodoItem todo = new();
-
             using (var connection =
                 new SqliteConnection("Data Source=db.sqlite"))
             {
@@ -152,7 +156,28 @@ namespace Todo.Controllers
                     tableCmd.ExecuteNonQuery();
                 }
             }
+        }
+        public RedirectResult Update(TodoItem todo)
+        {
+            using (SqliteConnection con =
+                new SqliteConnection("Data Source=db.sqlite"))
+            {
+                using (var tableCmd = con.CreateCommand())
+                {
+                    con.Open();
+                    tableCmd.CommandText = $"UPDATE todo SET Adı = '{todo.Adı}' WHERE Id = '{todo.Id}'";
+                    try
+                    {
+                        tableCmd.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                }
+            }
 
+            return Redirect("https://localhost:7080/");
         }
     }
 }
